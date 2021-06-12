@@ -14,6 +14,7 @@ echo -e "\e[1;31m Installing ...\e[m"
 sleep 3
 cp kali-update /bin
 rm -rf kali-update install
+chmod +x /bin/kali-update
 clear
 echo "
 
