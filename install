@@ -15,6 +15,8 @@ sleep 3
 cp kali-update /bin
 rm -rf kali-update install
 chmod +x /bin/kali-update
+cd ..
+rm -rf kali-update/
 clear
 echo "
 
